@@ -43,7 +43,7 @@ public enum Message {
     /*
      * General & Commands
      */
-    PREFIX("&7&l[&b&lL&3&lP&7&l] ", false),
+    PREFIX("&7&l[&b&lC&3&lP&7&l] ", false),
 
     VIEW_AVAILABLE_COMMANDS_PROMPT("&3Use &a/{} help &3to view available commands.", true),
     NO_PERMISSION_FOR_SUBCOMMANDS("&3You do not have permission to use any sub commands.", true),
@@ -59,9 +59,9 @@ public enum Message {
     /*
      * Logging
      */
-    LOG_INFO("&7&l[&bL&3P&7&l] &3{}", false),
-    LOG_WARN("&7&l[&bLuck&3Perms&7&l] &c[WARN] {}", false),
-    LOG_ERROR("&7&l[&bLuck&3Perms&7&l] &4[ERROR] {}", false),
+    LOG_INFO("&7&l[&bC&3P&7&l] &3{}", false),
+    LOG_WARN("&7&l[&bConvict&3Perms&7&l] &c[WARN] {}", false),
+    LOG_ERROR("&7&l[&bConvict&3Perms&7&l] &4[ERROR] {}", false),
     LOG(
             "{PREFIX}&3LOG &3&l> &8(&e{}&8) [&a{}&8] (&b{}&8)" + "\n" +
             "{PREFIX}&3LOG &3&l> &f{}",
