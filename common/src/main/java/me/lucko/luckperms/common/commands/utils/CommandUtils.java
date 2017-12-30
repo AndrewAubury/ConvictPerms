@@ -55,6 +55,7 @@ public class CommandUtils {
      */
     public static void sendPluginMessage(Sender sender, String message) {
         String prefix = sender.getPlatform().getLocaleManager().getTranslation(Message.PREFIX);
+        //String prefix = "";
         if (prefix == null) {
             prefix = Message.PREFIX.getMessage();
         }
