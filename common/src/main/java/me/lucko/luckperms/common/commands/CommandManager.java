@@ -155,7 +155,7 @@ public class CommandManager {
 
         // Handle no arguments
         if (arguments.size() == 0 || (arguments.size() == 1 && arguments.get(0).trim().isEmpty())) {
-            CommandUtils.sendPluginMessage(sender, "&2Running &bLuckPerms v" + plugin.getVersion() + "&2.");
+            CommandUtils.sendPluginMessage(sender, "&2Running &cConvictPerms v" + plugin.getVersion() + "&2.");
             if (mainCommands.stream().anyMatch(c -> c.shouldDisplay() && c.isAuthorized(sender))) {
                 Message.VIEW_AVAILABLE_COMMANDS_PROMPT.send(sender, label);
             } else {
